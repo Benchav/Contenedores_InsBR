@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Gourmet</title>
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      margin: 0;
+      background: #fff8f0;
+      color: #34495e;
+    }
+    nav {
+      background: #e74c3c;
+      padding: 15px;
+      text-align: center;
+      color: white;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: url('https://gdb.voanews.com/01000000-0aff-0242-52ab-08dc3891320d_w408_r1_s.png') no-repeat center center/cover;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    header h1 {
+      font-size: 3.5em;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .menu-item {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+    .menu-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .menu-item h3 {
+      margin: 15px 0;
+      color: #e74c3c;
+    }
+    .menu-item p {
+      margin: 0 10px 10px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Menú</a>
+    <a href="#">Reservaciones</a>
+    <a href="#">Contacto</a>
+  </nav>
+  <header>
+    <h1>Restaurante Gourmet</h1>
+    <p>Sabores que deleitan tus sentidos</p>
+  </header>
+  <section class="menu">
+    <div class="menu-item">
+      <img src="https://media.timeout.com/images/105882321/750/562/image.jpg" alt="Platillo 1">
+      <h3>Quesa birria</h3>
+      <p>sabrosos tacos de con carne y caldo de birria de res.</p>
+    </div>
+    <div class="menu-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT90GNbSKzrTvUpGHO5dp7HPIW8bkWa5xTSTA&s" alt="Platillo 2">
+      <h3>gallo pinto</h3>
+      <p>el mero nica sabroso.</p>
+    </div>
+    <div class="menu-item">
+      <img src="https://maruchan.com.mx/_next/image?url=%2Fimage%2FMARUCHAN%2FINSTANT%2FMaruchan_DESKTOP_INSTANT_PRODUCT_CL_P.png&w=2048&q=75" alt="Platillo 3">
+      <h3>maruchan</h3>
+      <p>riquisimo.</p>
+    </div>
+  </section>
+</body>
+</html>

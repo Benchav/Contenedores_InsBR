@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos Destacados</title>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      background: #f0f0f5;
+      color: #2c3e50;
+    }
+    header {
+      background-color: #1abc9c;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .events {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
+    .event-card {
+      background: white;
+      width: 300px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .event-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .event-card h3 {
+      margin: 10px;
+      font-size: 1.5em;
+      color: #16a085;
+    }
+    .event-card p {
+      margin: 10px;
+      font-size: 0.9em;
+      color: #7f8c8d;
+    }
+    .event-card button {
+      width: 90%;
+      margin: 10px 5%;
+      background: #16a085;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .event-card button:hover {
+      background: #149174;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Próximos Eventos</h1>
+  </header>
+  <section class="events">
+    <div class="event-card">
+      <img src="https://ibizatattooconvention.com/wp-content/uploads/2023/02/logo-ibiza-tattoo-2023.png" alt="Evento 1">
+      <h3>TatuSports</h3>
+      <p>Fecha: 10 Noviembre 2024<br>Lugar: Centro de Convenciones</p>
+      <button>Más Información</button>
+    </div>
+    <div class="event-card">
+      <img src="https://www.expoautomovilesdelmundo.com.mx/assets/conference/logocover03.png" alt="Evento 2">
+      <h3>Autos clasicos</h3>
+      <p>Fecha: 15 Noviembre 2024<br>Lugar: Plaza Principal</p>
+      <button>Más Información</button>
+    </div>
+    <div class="event-card">
+      <img src="https://png.pngtree.com/png-vector/20240506/ourmid/pngtree-water-cooled-gaming-pc-with-rgb-rainbow-led-lighting-png-image_12371747.png" alt="Evento 3">
+      <h3>PC gaming</h3>
+      <p>Fecha: 20 Noviembre 2024<br>Lugar: Auditorio Nacional</p>
+      <button>Más Información</button>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      background: #f1f1f1;
+    }
+    nav {
+      background: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      width: 250px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 20px;
+    }
+    .product img {
+      width: 100%;
+    }
+    .product h4 {
+      color: #333;
+    }
+    .product p {
+      color: #777;
+    }
+    .product button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Carrito</a>
+  </nav>
+  <section class="products">
+    <div class="product">
+      <img src="https://balu.com.mx/wp-content/uploads/2024/10/Azucar-Refinada-Zulka-1kg-1.jpg" alt="Producto 1">
+      <h4>azucar</h4>
+      <p>$10.00</p>
+      <button>Añadir al Carrito</button>
+    </div>
+    <div class="product">
+      <img src="https://tienda.estasenlinea.cl/485-home_default/harina-de-almendras.jpg" alt="Producto 2">
+      <h4>Harina</h4>
+      <p>$20.00</p>
+      <button>Añadir al Carrito</button>
+    </div>
+    <div class="product">
+      <img src="https://santaisabel.vtexassets.com/arquivos/ids/156768/Mantequilla-200-g.jpg?v=637469298311400000" alt="Producto 3">
+      <h4>Mantequilla</h4>
+      <p>$30.00</p>
+      <button>Añadir al Carrito</button>
+    </div>
+  </section>
+</body>
+</html>
